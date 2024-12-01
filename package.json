@@ -1,6 +1,6 @@
 {
   "name": "@greenweb/gaw-plugin-netlify-edge",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "main": "src/index.js",
   "scripts": {
     "lint": "npx eslint .",
@@ -10,7 +10,21 @@
     "format": "npm run prettier:fix && npm run lint:fix",
     "test": "vitest"
   },
-  "keywords": [],
+  "keywords": [
+    "grid-aware",
+    "carbon-aware",
+    "sustainability",
+    "greenweb",
+    "plugin",
+    "netlify"
+  ],
+  "bugs": {
+    "url": "https://github.com/thegreenwebfoundation/gaw-plugin-netlify-edge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thegreenwebfoundation/gaw-plugin-netlify-edge"
+  },
   "author": {
     "name": "Fershad Irani",
     "email": "fershad@greenweb.org",
