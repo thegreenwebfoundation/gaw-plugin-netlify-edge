@@ -49,8 +49,8 @@ export default async (request, context) => {
   }
 
   // Otherwise we can get the "country" variable 
-  const { latlon } = location;
-  return new Response(`The country is ${JSON.stringify(latlon)}.`)
+  const { lat, lon } = location;
+  return new Response(`The country is ${JSON.stringify({lat, lon})}.`)
 }
 ```
 
