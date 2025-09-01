@@ -22,7 +22,13 @@ pids/
 
 # IDEs and editors
 .vscode/
+.zed/
 
 # Build directories
 dist/
 build/
+
+# Local Netlify folder
+.netlify
+demo
+netlify.toml

@@ -1,11 +1,12 @@
-import { Context } from "@netlify/edge-functions";
+import { Context, EdgeFunction } from "@netlify/edge-functions";
 
 export type netlifyContext = Context;
+export type netlifyEdge = EdgeFunction;
 
 export type locationResponse = {
   country?: string;
-  lat?: number;
-  lon?: number;
+  lat?: string;
+  lon?: string;
   status: "success" | "error";
 };
 
