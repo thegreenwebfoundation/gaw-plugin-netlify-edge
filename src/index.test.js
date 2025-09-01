@@ -34,8 +34,8 @@ describe("getLocation", () => {
   it("should return the lat lon when the options object is set to latlon", () => {
     const mockRequest = {
       geo: {
-        latitude: 1,
-        longitude: 2,
+        latitude: "1",
+        longitude: "2",
       },
     };
 
@@ -43,8 +43,8 @@ describe("getLocation", () => {
 
     expect(result).toEqual({
       status: "success",
-      lat: 1,
-      lon: 2,
+      lat: "1",
+      lon: "2",
     });
   });
 
