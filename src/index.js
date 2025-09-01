@@ -1,6 +1,6 @@
 import { GridIntensity } from "@greenweb/grid-aware-websites";
 // @ts-ignore
-import { HTMLRewriter } from "https://ghuc.cc/worker-tools/html-rewriter/index.ts";
+import { HTMLRewriter } from "@worker-tools/html-rewriter";
 
 /**
  * Type definitions
